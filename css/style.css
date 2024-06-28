@@ -1,0 +1,33 @@
+:root{
+    --text--c--white:#fff;
+    --bg--c--g:#008000;
+    --bg--c--b:#0000ff;
+    --bg--c--t:#008080;
+    --bg--c--r:#ff0000;
+    --bg--c--a:#00ffff;
+    --f--size:30px;
+    --serif:sans-serif;
+}
+
+
+.header, .hero, .body, .bar, .footer{
+    background:var(--bg--c--t);
+    margin-bottom:10px;
+}
+.box{
+    margin:15px 0;
+    height:100px;
+    /* display: flex;
+    justify-content: center; */
+    font-family: var(--serif);
+    font-size: var(--f--size);
+    color:var(--text--c--white);
+    border:5px solid var(--bg--c--a);
+    background-color: var(--bg--c--b);
+}
+.three{
+    background:var(--bg--c--r);
+}
+.five{
+    background-color: var(--bg--c--g);
+}
